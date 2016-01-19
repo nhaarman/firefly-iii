@@ -18,6 +18,7 @@ show: yes
 - Save towards a goal using [piggy banks](https://en.wikipedia.org/wiki/Piggy_bank);
 - Predict and anticipate [bills](https://en.wikipedia.org/wiki/Invoice);
 - View income / expense [reports](https://en.wikipedia.org/wiki/Financial_statement);
+- [Rule based](https://en.wikipedia.org/wiki/Rule-based_system) transaction handling with the ability to create your own rules.
 - Organize expenses using tags;
 - Lots of help text in case you don't get it.
 

@@ -17,24 +17,24 @@ The first thing I did was simple: I started living from the first day of the mon
 
 1. On the day I get paid, I move my entire salary to my savings account.
 2. On the _last_ day of the month, I think how much money I will need in the next month.
-3. On the _first_ day of the month, put that amount in my checking account.
+3. On the _first_ day of the month, I put that amount in my checking account.
 
 So if you get paid on the 23rd of the month, your salary sits in your savings account from the 23rd until the first day of the month, when you move (part of it) back to your checking account. If you
 get paid every week, this routine repeats weekly.
 
-This is difficult the first few times, but after a while you'll notice that you have (pretty effectively) moved your routine away from your salary and income. This alone
+This is quite difficult the first few times, but after a while you'll notice that you have (pretty effectively) moved your routine away from your salary and income. This alone
 gives you great financial stability. 
 
 This procedure allowed me to program a very simple tool (the original "Firefly") which held very simple things: transactions. Oh and some accounts to keep track of the money. But that was basically it. It showed me where my money went.
 
-In those early, exciting days, all I did was live from the 1st to the 31st of the month. This helped me save a lot of money already. The rest followed. Read below!
+In those early, exciting days, all I did was live from the 1st to the 31st of the month. This helped me save a lot of money already. The rest of Firefly's features have been built around this idea. Read below!
 
 ## Accounts
 
 There are three kinds of accounts in Firefly III:
 
 * **Asset accounts**
-  * Asset accounts hold your money. Your bank account is an asset account. Your savings account is an asset account. They would be called "Savings account" or "Checking account". These accounts can be created with an initial (negative) balance, which is useful since you won't be entering your entire financial history.
+  * Asset accounts hold your own money. Your bank account is an asset account. Your savings account is an asset account. They would be called "Savings account" or "Checking account". These accounts can be created with an initial (negative) balance, which is useful since you won't be entering your entire financial history.
 * **Expense accounts**
   * Expense accounts are stores, shops, online things, whatever. For example: "Target", "Thinkgeek", "Walmart" or wherever you buy stuff.
 * **Revenue accounts**
@@ -80,7 +80,7 @@ These are budgets. Budgets are a kind of "category" that come back every single 
 
 In what is called an "[envelope system](http://en.wikipedia.org/wiki/Envelope_system)" you stuff money in envelopes and spend your money from those envelopes.
 
-Firefly III uses this method, which means you can create "envelopes" for any period. Example: € 200,- for "groceries" or € 500,- for "bills" every month.
+Firefly III uses this method, which means you can create "envelopes" for any period. Example: € 200,- for "groceries" or € 500,- for "bills" every month. For more details you can also give transactions a category.
 
 ## Categories
 
@@ -102,6 +102,8 @@ If you can save money every month on a certain subject, it's a budget. Groceries
 First and foremost: a category is "incidental". You don't buy new furniture every month but you might want to keep track of such expenses. Or you don't care about costs for public traffic (budget-wise) but a category would be nice.
 
 The rule of thumb is: would you make a real life envelope for it? If yes: budget. If no: category.
+
+If you need even more fine-grained control, you can use tags.
 
 ## Tags
 
@@ -134,3 +136,13 @@ Rent. Comes back every month. Create a bill and Firefly will not only match new 
 ## Reports 
 
 Will show you how you have been doing.
+
+## Rules
+
+Firefly III can automatically categorize or budgetize your transactions based on rules you can create yourself. Examples include:
+
+* Automatically add the correct budget for groceries;
+* Change the description to something generic for specific accounts;
+* Choose the correct category based on the amount of the transaction.
+
+These rules can be created by you. You have full control.

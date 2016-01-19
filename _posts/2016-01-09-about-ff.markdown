@@ -16,7 +16,7 @@ Firefly works on the principle that if you know where you're money is going, you
 To get to know Firefly, and to see if it fits you, check out these resources:
 
 - The [screenshots](screenshots/) so you can see what it looks like;
-- The [featurelist](features/) so you know what it does; 
+- The [feature list](features/) so you know what it does; 
 - The [full description](description/), which will tell you how Firefly works,
 and the philosophy behind it.
 
@@ -30,7 +30,7 @@ If you decide you want to run Firefly III yourself (this is the mandatory next s
 
 - [The system requirements](system-requirements/);
 - [The installation guide](installation-guide/);
-- [The upgrade guide](upgrade-guide/);
+- [The upgrade guide](upgrade-guide/) (if you already running it);
 - [Some important must-reads](must-reads/) that did not fit on this page
 
 
