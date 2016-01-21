@@ -5,6 +5,13 @@ permalink: /features/
 show: yes
 ---
 
+Most importantly..
+
+- Firefly can import any CSV file, so migrating from other systems is easy.
+- Firefly runs on your own server, so you are fully in control of your data.
+- If you feel you're missing something you can just ask me and I'll add it!
+
+But actually, it features:
 
 - [A double-entry bookkeeping system](https://en.wikipedia.org/wiki/Double-entry_bookkeeping_system);
 - You can store, edit and remove [withdrawals, deposits and transfers](https://en.wikipedia.org/wiki/Financial_transaction). This allows you full financial management;
