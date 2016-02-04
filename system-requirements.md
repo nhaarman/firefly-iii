@@ -10,6 +10,7 @@ Firefly III requires the following things.
 - MySQL, SQLite, Postgres or SQL server.
 - [PHP BCMath Arbitrary Precision Mathematics](http://php.net/manual/en/book.bc.php), a PHP module.
 - [PHP Mcrypt](http://php.net/manual/en/book.mcrypt.php)
+- [PHP Internationalization extension](http://php.net/manual/en/intro.intl.php)
 - [PHP MBstring](http://php.net/manual/en/book.mbstring.php)
 - A GMail address or other mailing facilities.
 - Access to [Composer](https://getcomposer.org/)

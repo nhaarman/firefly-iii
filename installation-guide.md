@@ -71,3 +71,13 @@ Solution: Use PHP 5.6 or higher, not 5.4
 `PHP message: PHP Fatal error: Call to undefined function FireflyIII\Http\Controllers\bcscale() in /var/www/firefly-iii/app/Http/Controllers/HomeController.php on line 76`
 
 Solution: you haven't enabled or installed the BCMath module.
+
+### intl
+
+Errors such as these:
+
+```
+[2016-02-04 17:06:25] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function FireflyIII\Http\Controllers\numfmt_create()' in xxxx/firefly-iii/app/Http/Controllers/Controller.php:55
+```
+
+Solution: You haven't enabled or installed the Internationalization extension.
