@@ -25,7 +25,7 @@ Or variants:
 
  Then, run this command:
 
-``copy .env.example .env``
+``copy firefly-iii/.env.example firefly-iii/.env``
 
 Open ``firefly-iii/.env``.
 
