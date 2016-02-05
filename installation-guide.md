@@ -23,7 +23,7 @@ Or variants:
 
 ***
 
-Then, run this command:
+ Then, run this command:
 
 ``copy .env.example .env``
 
