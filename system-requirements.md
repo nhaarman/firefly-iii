@@ -6,7 +6,7 @@ permalink: /system-requirements/
 
 Firefly III requires the following things. 
 
-- PHP 5.6.8. Please note that this will become 7.0.0 pretty soon.
+- PHP 7
 - MySQL, SQLite, Postgres or SQL server.
 - [PHP BCMath Arbitrary Precision Mathematics](http://php.net/manual/en/book.bc.php), a PHP module.
 - [PHP Mcrypt](http://php.net/manual/en/book.mcrypt.php)
