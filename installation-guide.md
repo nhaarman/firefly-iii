@@ -60,15 +60,13 @@ Some common errors:
 
 If the logs are empty (``storage/logs``) Firefly can't write to them. See above for the commands. If the logs still remain empty, do you have a the ``vendor`` in your Firefly root? If not, run the Composer commands.
 
-### Return value
-
-`Fatal error: Can't use method return value in write context in /var/www/firefly-iii/bootstrap/cache/compiled.php on line 646`
-
-Solution: Use PHP 5.6 or higher, not 5.4
-
 ### BCMath
 
-`PHP message: PHP Fatal error: Call to undefined function FireflyIII\Http\Controllers\bcscale() in /var/www/firefly-iii/app/Http/Controllers/HomeController.php on line 76`
+```
+PHP message: PHP Fatal error: Call to undefined function 
+FireflyIII\Http\Controllers\bcscale() in
+firefly-iii/app/Http/Controllers/HomeController.php on line 76
+```
 
 Solution: you haven't enabled or installed the BCMath module.
 
@@ -77,11 +75,10 @@ Solution: you haven't enabled or installed the BCMath module.
 Errors such as these:
 
 ```
-[2016-02-04 17:06:25] production.ERROR: exception
-'Symfony\Component\Debug\Exception\FatalErrorException'
-with message 'Call to undefined function
-FireflyIII\Http\Controllers\numfmt_create()' in
-firefly-iii/app/Http/Controllers/Controller.php:55
+production.ERROR: exception 
+'Symfony\Component\Debug\Exception\FatalErrorException' with message
+'Call to undefined function FireflyIII\Http\Controllers\numfmt_create()'
+in firefly-iii/app/Http/Controllers/Controller.php:55
 ```
 
 Solution: You haven't enabled or installed the Internationalization extension.
