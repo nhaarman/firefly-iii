@@ -91,3 +91,5 @@ in firefly-iii/app/Http/Controllers/Controller.php:55
 ```
 
 Solution: You haven't enabled or installed the Internationalization extension.
+
+If you are running FreeBSD, install ``pecl-intl``.
