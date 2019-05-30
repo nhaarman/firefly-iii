@@ -88,7 +88,8 @@
     "pragmarx/google2fa": "^7.0",
     "pragmarx/recovery": "^0.1.0",
     "predis/predis": "^1.1",
-    "rcrowe/twigbridge": "^0.11.2"
+    "rcrowe/twigbridge": "^0.11.2",
+    "spatie/laravel-backup": "^6.4"
   },
   "require-dev": {
     "barryvdh/laravel-ide-helper": "2.*",
